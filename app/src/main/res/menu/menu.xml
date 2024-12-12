@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/home_icon"
+        android:title="Home"
+        />
+
+    <item
+        android:id="@+id/bottom_recipe"
+        android:icon="@drawable/recipe_icon"
+        android:title="Recipe"
+        />
+
+    <item
+        android:id="@+id/bottom_note"
+        android:icon="@drawable/note_icon"
+        android:title="Note"
+        />
+
+    <item
+        android:id="@+id/bottom_bmi"
+        android:icon="@drawable/calculate_icon"
+        android:title="Calculator"
+        />
+
+    <item
+        android:id="@+id/bottom_profile"
+        android:icon="@drawable/profile_icon"
+        android:title="@string/profile"
+        />
+</menu>

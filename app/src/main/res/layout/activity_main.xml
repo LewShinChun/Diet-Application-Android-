@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:id="@+id/mainImg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/healthy_food_in_a_bowl"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtTitle"
+        android:layout_below="@+id/mainImg"
+        android:text="Welcome to Myfit"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:id="@+id/txtContent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtTitle"
+        android:text="Learn how to have a healthy meal.
+        \nUse it as a note recorder.
+        \nCalculate your BMI to aware of your body fat balance."
+        android:textSize="20sp"
+        android:background="@color/white"
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomNavigateView"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_navigation"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:elevation="2dp"
+        app:menu="@menu/menu"
+        app:itemIconSize="30dp"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"/>
+
+
+
+</RelativeLayout>

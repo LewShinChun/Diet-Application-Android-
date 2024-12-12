@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate your BMI"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/weightID"
+        android:text="Weight"
+        android:textSize="25sp"
+        android:layout_below="@id/textView1"
+        />
+
+    <EditText
+        android:id="@+id/txtWeight"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="3"
+        android:hint="@string/hintKg"
+        android:textColorHint="@color/black"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        android:layout_below="@+id/weightID"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edit_text_design2">
+        <requestFocus/>
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/heightID"
+        android:text="Height"
+        android:textSize="25sp"
+        android:layout_below="@id/txtWeight"
+        android:layout_marginTop="8dp"
+        />
+
+    <EditText
+        android:id="@+id/txtHeight"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="5"
+        android:hint="@string/hintM"
+        android:textColorHint="@color/black"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        android:layout_below="@+id/heightID"
+        android:background="@drawable/edit_text_design2"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Age"
+        android:text="Age"
+        android:textSize="25sp"
+        android:layout_below="@id/txtHeight"
+        android:layout_marginTop="8dp"
+        />
+
+    <EditText
+        android:id="@+id/txtAge"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="5"
+        android:hint="@string/hintA"
+        android:textColorHint="@color/black"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        android:layout_below="@+id/Age"
+        android:background="@drawable/edit_text_design2"
+        android:layout_marginTop="8dp"
+        />
+
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Calculate"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtAge"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/blue"
+        />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnCalc"
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomNavigateView"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_navigation"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:elevation="2dp"
+        app:menu="@menu/menu"
+        app:itemIconSize="30dp"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"/>
+
+</RelativeLayout>

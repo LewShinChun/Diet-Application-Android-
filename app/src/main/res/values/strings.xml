@@ -1,0 +1,253 @@
+<resources>
+    <string name="app_name">MyFit</string>
+    <string name="register">Register an account</string>
+    <string name="Uname">User Name</string>
+    <string name="email">Email Address</string>
+    <string name="psword">Password</string>
+    <string name="registerbtn">Register</string>
+    <string name="login">Login</string>
+    <string name="toRegister">Create an account</string>
+    <string name="toLogin">Login here</string>
+    <string name="logout">Logout</string>
+    <string name="forgotP">Forgot Password?</string>
+    <string name="profile">Profile</string>
+    <string name="edit">Edit</string>
+    <string name="resetPassword">Reset Password</string>
+    <string name="resendEmail">Resend Email</string>
+    <string name="hintM">Insert your height in M format (e.g. #.##)</string>
+    <string name="hintKg">Insert your weight in KG format (e.g. ###.##)</string>
+    <string name="hintA">Insert your age.</string>
+    ------------------------------------------recipe----------------------------------------------------------
+    //Pea and Spinach Carbonara
+    <string name="pastaIngredients">Pea and Spinach Carbonara
+    \n1 ½ tablespoons extra-virgin olive oil
+
+    \n½ cup panko breadcrumbs, preferably whole-wheat
+
+    \n1 small clove garlic, minced
+
+    \n8 tablespoons grated Parmesan cheese, divided
+
+    \n3 tablespoons finely chopped fresh parsley
+
+    \n3 large egg yolks
+
+    \n1 large egg
+
+    \n½ teaspoon ground pepper
+
+    \n¼ teaspoon salt
+
+    \n1 (9 ounce) package fresh tagliatelle or linguine
+
+    \n8 cups baby spinach
+
+    \n1 cup peas (fresh or frozen)</string>
+    <string name="pastaDesc">Put 10 cups of water in a large pot and bring to a boil over high heat.
+    \n\nHeat oil in skillet, cook breadcrumbs and garlic until toasted, about 2 minutes. Transfer to bowl, mix with Parmesan and parsley. Set aside.
+    \n\nWhisk the remaining 6 tablespoons Parmesan, egg yolks, egg, pepper and salt in a medium bowl.
+    \n\nCook pasta in boiling water for 1 minute, then add spinach and peas and cook until pasta is tender, about 1 more minute. Reserve 1/4 cup cooking water, drain, and place in a large bowl.
+    \n\nGradually whisk reserved cooking water into egg mixture, then add to pasta, tossing to combine. Serve topped with reserved breadcrumb mixture.</string>
+
+    //Chickpea Curry
+    <string name="maggiIngredients">Chickpea Curry
+    \n1 medium serrano pepper, cut into thirds
+
+    \n4 large cloves garlic
+
+    \n1 2-inch piece fresh ginger, peeled and coarsely chopped
+
+    \n1 medium yellow onion, chopped (1-inch)
+
+    \n6 tablespoons canola oil or grapeseed oil
+
+    \n2 teaspoons ground coriander
+
+    \n2 teaspoons ground cumin
+
+    \n½ teaspoon ground turmeric
+
+    \n2 ¼ cups no-salt-added canned diced tomatoes with their juice (from a 28-ounce can)
+
+    \n¾ teaspoon  kosher salt
+
+    \n2 15-ounce cans chickpeas, rinsed
+
+    \n2 teaspoons garam masala
+
+    \nFresh cilantro for garnish</string>
+    <string name="maggieDesc">Pulse serrano, garlic, and ginger in a food processor until minced. Add onion and pulse until finely chopped without excess liquid.
+
+    \n\nHeat oil in a large saucepan over medium-high heat. Add onion mixture and cook until softened, about 3-5 minutes. Stir in coriander, cumin, and turmeric; cook for 2 minutes.
+
+    \n\nPulse tomatoes until finely chopped. Add to pan with salt, simmer for 4 minutes. Add chickpeas, garam masala, simmer covered for 5 minutes. Serve topped with cilantro, if desired.</string>
+
+    //Spinach and Feta Scrambled Egg Pitas
+    <string name="cakeIngredients">Spinach and Feta Scrambled Egg Pitas
+    \n1 tablespoon extra-virgin olive oil
+
+    \n1 (10 ounce) block frozen chopped spinach, thawed, drained and squeezed dry
+
+    \nPinch salt
+
+    \n8 large eggs, beaten
+
+    \n¼ cup finely crumbled feta cheese
+
+    \nFreshly ground pepper to taste
+
+    \n8 teaspoons sun-dried tomato tapenade or sun-dried tomato pesto
+
+    \n4 whole-wheat pitas (5-inch), cut in half, warmed if desired (see Tip)</string>
+    <string name="cakeDesc">Heat oil in skillet. Add spinach, salt; cook until hot. Add eggs; stir until soft curds form, about 4-5 minutes. Add feta, pepper; cook until set.
+
+    \n\nSpread 2 teaspoons tapenade or pesto inside pita pockets. Divide egg mixture among pitas.</string>
+
+    //One-Skillet Bourbon Chicken
+    <string name="pancakeIngredients">One-Skillet Bourbon Chicken
+    \n¼ cup lower-sodium soy sauce
+
+    \n¼ cup bourbon
+
+    \n¼ cup unsweetened apple juice
+
+    \n1 tablespoon rice vinegar
+
+    \n1 tablespoon pure maple syrup
+
+    \n1 tablespoon minced fresh garlic
+
+    \n1 teaspoon grated fresh ginger
+
+    \n¼ teaspoon crushed red pepper
+
+    \n1 ½ pounds boneless, skinless chicken thighs, cut into 1/2-inch-thick strips
+
+    \n1 tablespoon cornstarch, plus 1 teaspoon, divided
+
+    \n2 tablespoons canola oil
+
+    \n2 teaspoons water
+
+    \n3 cups cooked brown rice
+
+    \nSliced scallions, for garnish</string>
+    <string name="pancakeDesc">Combine soy sauce, bourbon, apple juice, vinegar, maple syrup, garlic, ginger and crushed red pepper in a small bowl.
+    \n\nToss chicken with cornstarch. Cook in oil until golden and crispy, 6-8 minutes. Add soy-bourbon mix; cook until sauce thickens and chicken is done, about 6-8 minutes.
+
+    \n\nCombine water and remaining 1 teaspoon cornstarch in a bowl. Add to the pan; cook, stirring until sauce thickens and coats chicken, about 1-2 minutes.
+
+    \n\nDivide rice among 4 plates; top with the chicken and sauce. Garnish with scallions, if desired.</string>
+
+    //Salmon Chowder
+    <string name="chowderIngredients">
+        1 tablespoon canola oil
+
+        \n⅓ cup chopped carrot
+
+        \n⅓ cup chopped celery
+
+        \n4 cups reduced-sodium chicken broth
+
+        \n1 ½ cups water
+
+        \n1 12-ounce skinned salmon fillet, preferably wild-caught (see Note and Tip)
+
+        \n2 1/2 cups frozen cauliflower florets, thawed and coarsely chopped
+
+        \n3 tablespoons chopped fresh chives or scallions, or 1 1/2 tablespoons dried chives
+
+        \n1 1/3 cups instant mashed potato flakes (see Note), or 2 cups leftover mashed potatoes
+
+        \n1/4 cup chopped fresh dill, or 2 teaspoons dried tarragon
+
+        \n1 tablespoon Dijon mustard
+
+        \n¼ teaspoon salt
+
+        \nFreshly ground pepper to taste
+    </string>
+
+    <string name="chowderdesc">Heat oil in a large saucepan. Cook carrot and celery until beginning to brown (3-4 mins).
+
+        \n\nAdd broth, water, salmon, cauliflower, and chives. Simmer covered until salmon is cooked (5-8 mins).
+
+        \n\nRemove salmon and flake it.
+
+        \n\nStir in potato flakes, dill, and mustard. Return to a simmer.
+
+        \n\nAdd salmon, reheat, season with salt and pepper.
+    </string>
+
+    //Salmon caesar salad
+    <string name="saladIngredients">
+
+        1 ½ tablespoons extra-virgin olive oil
+
+    \n4 (5 ounce) skinless salmon fillets (see Tip)
+
+    \n1 teaspoon ground pepper, divided
+
+    \n⅛ teaspoon salt plus 1/2 teaspoon, divided
+
+    \n½ cup buttermilk
+
+    \n¼ cup nonfat plain Greek yogurt
+
+    \n¼ cup grated Parmigiano-Reggiano cheese
+
+    \n2 tablespoons lemon juice
+
+    \n1 ½ teaspoons Worcestershire sauce
+
+    \n1 teaspoon grated garlic
+
+    \n½ teaspoon Dijon mustard
+
+    \n5 cups chopped romaine lettuce
+
+    \n3 cups chopped radicchio
+
+    \n3 tablespoons thinly sliced fresh basil, plus more for garnish
+
+    \n1 ½ tablespoons chopped fresh tarragon
+
+    </string>
+
+    <string name="saladdesc">
+        Cook the salmon in the hot oil until golden brown and easily flakes with a fork, about 3 to 4 minutes per side, then transfer to a plate and break into large chunks.
+
+    \n\nWhisk buttermilk, yogurt, cheese, lemon juice, Worcestershire, garlic, mustard and the remaining 1/2 teaspoon each pepper and salt in a large bowl until well blended. Reserve 1/4 cup of the dressing in a small bowl. Add lettuce, radicchio, basil and tarragon to the large bowl and toss to coat.
+
+    \n\nArrange the salad on a platter and top with the salmon. Serve topped with the reserved 1/4 cup dressing and more basil, if desired.
+
+    </string>
+
+    //White Bean-Sage Cauliflower Gnocchi
+    <string name="gnocchiIngredients">
+        2 tablespoons butter
+
+    \n2 tablespoons olive oil
+
+    \n1 (340 gram) bag frozen cauliflower gnocchi
+
+    \n1 (425 gram) can low-sodium white beans, rinsed
+
+    \n1 tablespoon dried sage
+
+    \n1 tablespoon water
+
+    \n½ teaspoon salt
+
+    \n¼ teaspoon ground pepper
+
+    \n4 cups baby arugula
+    </string>
+    
+    <string name="gnocchidesc">
+        Heat butter and oil in a large skillet over medium-high heat. Add gnocchi and cook until browned, about 5 minutes.
+
+        \n\nAdd beans, sage and water. Cover and simmer until the gnocchi are tender and the beans are heated through, about 5 minutes. Season with salt and pepper. Serve over arugula.
+    </string>
+    -------------------------------------------end------------------------------------------------------------
+</resources>
